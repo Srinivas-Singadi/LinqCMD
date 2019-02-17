@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EmpDB">
+  <DataContextMoniker Name="/EmpDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="637c44cf-7f44-4d2b-a597-cb8d64233839" absoluteBounds="1.5, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/EmpDBDataContext/Emp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e0af666-a7c8-440d-ac61-e386a4b204e0" absoluteBounds="1.5149999999999997, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.20923076923077 : 3.09780110677083); (2.20923076923077 : 3.34780110677083); (2.80461538461538 : 3.34780110677083); (2.80461538461538 : 3.09780110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/EmpDBDataContext/Emp/Emp_Emp" />
+      <nodes>
+        <classShapeMoniker Id="637c44cf-7f44-4d2b-a597-cb8d64233839" />
+        <classShapeMoniker Id="637c44cf-7f44-4d2b-a597-cb8d64233839" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
